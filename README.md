@@ -11,3 +11,13 @@ that minimizes the Player's outcome. As a general principle, how far the opponen
 
  Note that 90% of tiles placed by the computer are 2's, while the remaining 10% are 4's.
  Alpha-Beta pruning speed up the search process by eliminating irrelevant branches.
+
+The following heuristics are considered for evaluating the utility of a given state:
+ the absolute value of tiles (mean, median, no. of empty tiles)
+ the difference in value between adjacent tiles (monotonicity)
+ the potential for merging of similar tiles (smoothness)
+ the ordering of tiles across rows, columns, and diagonals (weights across rows and diagonals)
+
+To run the game, execute the game manager:
+
+$ python3 GameManager.py
