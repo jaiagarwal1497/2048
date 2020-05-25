@@ -24,4 +24,3 @@ To run the game, execute the game manager:
 
 $ python3 GameManager.py
 
----
