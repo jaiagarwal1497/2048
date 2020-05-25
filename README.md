@@ -21,6 +21,5 @@ The following heuristics are considered for evaluating the utility of a given st
 To run the game, execute the game manager:
 
 ---
-
 $ python3 GameManager.py
 
